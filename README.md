@@ -11,6 +11,7 @@ Its based on maven2 and can be run using the command
 
 The jetty server shall start and listen on port 1234, contextPath set to root (/).
 If you want to test it you must:
+
 1. supply the required Content-Type and Accept headers (application/json)
 2. use POST (no other method supported)
 3. target url should be something like: http://localhost:1234/hello/${name} - where ${name} is a string bound to controller's parameter called name
