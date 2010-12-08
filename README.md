@@ -16,4 +16,5 @@ If you want to test it you must:
 2. use POST (no other method supported)
 3. target url should be something like: http://localhost:1234/hello/${name} - where ${name} is a string bound to controller's parameter called name
 4. curl example: 
+
 	curl -XPOST -H "Accept: application/json" -H "Content-Type: application/json" -d "{\"contents\": \"ahoj\"}" http://localhost:1234/hello/zuzkins
